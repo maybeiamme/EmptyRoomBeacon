@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmptyRoomBeacon_Example' do
+  pod 'EmptyRoomBeacon', :path => '../'
+
+  target 'EmptyRoomBeacon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
