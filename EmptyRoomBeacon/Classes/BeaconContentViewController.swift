@@ -26,7 +26,7 @@ class BeaconContentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(webView)
-        webView.fitToParentView()
+        self.fitView(subView: webView, superView: self.view)
         
         let bundle = Bundle(for: type(of: self))
         
@@ -64,15 +64,13 @@ class BeaconContentViewController: UIViewController {
     func closeContent(){
         self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
-}
-
-public extension UIView {
-    func fitToParentView(left:Int = 0,right:Int  = 0,top:Int  = 0,bottom:Int = 0) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        superview?.addConstraint(NSLayoutConstraint(item: self, attribute: .top, relatedBy: .equal, toItem: superview, attribute: .top, multiplier: 1.0, constant: CGFloat(top)))
-        superview?.addConstraint(NSLayoutConstraint(item: self, attribute: .leading, relatedBy: .equal, toItem: superview, attribute: .leading, multiplier: 1.0, constant: CGFloat(left)))
-        superview?.addConstraint(NSLayoutConstraint(item: self, attribute: .bottom, relatedBy: .equal, toItem: superview, attribute: .bottom, multiplier: 1.0, constant: CGFloat(bottom)))
-        superview?.addConstraint(NSLayoutConstraint(item: self, attribute: .trailing, relatedBy: .equal, toItem: superview, attribute: .trailing, multiplier: 1.0, constant: CGFloat(right)))
+    
+    func fitView(subView: UIView, superView: UIView?, left:Int = 0,right:Int  = 0,top:Int  = 0,bottom:Int = 0){
+        subView.translatesAutoresizingMaskIntoConstraints = false
+        superView?.addConstraint(NSLayoutConstraint(item: subView, attribute: .top, relatedBy: .equal, toItem: superView, attribute: .top, multiplier: 1.0, constant: CGFloat(top)))
+        superView?.addConstraint(NSLayoutConstraint(item: subView, attribute: .leading, relatedBy: .equal, toItem: superView, attribute: .leading, multiplier: 1.0, constant: CGFloat(left)))
+        superView?.addConstraint(NSLayoutConstraint(item: subView, attribute: .bottom, relatedBy: .equal, toItem: superView, attribute: .bottom, multiplier: 1.0, constant: CGFloat(bottom)))
+        superView?.addConstraint(NSLayoutConstraint(item: subView, attribute: .trailing, relatedBy: .equal, toItem: superView, attribute: .trailing, multiplier: 1.0, constant: CGFloat(right)))
     }
 }
 
