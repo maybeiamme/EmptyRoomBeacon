@@ -15,6 +15,8 @@
 		236C8FB5FD0A07F8BF69F4650A0C1536 /* UUIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E6547C426BB465C24C6F6FCA9DABCF8 /* UUIDs.plist */; };
 		31104CBB27DD66CCF53863496136061E /* delete-512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0160244A5A4B4DA30279510E39BBDF50 /* delete-512@2x.png */; };
 		3E3A1F4156AB18ABC1F8DFB0E1E65F8F /* Pods-EmptyRoomBeacon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6ECC7EE7E0219A5EC077B1DEE8572E3 /* Pods-EmptyRoomBeacon_Tests-dummy.m */; };
+		41ACDC351EB8DB2A00C6A8F8 /* ImageBeaconContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACDC341EB8DB2A00C6A8F8 /* ImageBeaconContentViewController.swift */; };
+		41ACDC371EB8DB6A00C6A8F8 /* UrlBeaconContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACDC361EB8DB6A00C6A8F8 /* UrlBeaconContentViewController.swift */; };
 		5D448AAD07E4A27FAD500C9DB6EF34F9 /* BeaconContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949ED4B96224D106045DF1344E7D813B /* BeaconContentViewController.swift */; };
 		78A0014201F2E67A9BE9DE9B7D990910 /* helixBridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7460D3D1188F9E930FB86099E7659EBE /* helixBridge.jpg */; };
 		8201B5D4B90C9A11DBB58A1C7CBFF1CD /* livingRoom1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 329230E2B5E72BC46FE995FCE5B5B5C9 /* livingRoom1.jpg */; };
@@ -52,47 +54,49 @@
 
 /* Begin PBXFileReference section */
 		0160244A5A4B4DA30279510E39BBDF50 /* delete-512@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete-512@2x.png"; sourceTree = "<group>"; };
-		03FC8D28F7AB2D8815058B00188AFC9E /* EmptyRoomBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyRoomBeacon.framework; path = EmptyRoomBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FC8D28F7AB2D8815058B00188AFC9E /* EmptyRoomBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmptyRoomBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D223347DBF9DC80E6962B95F38F2B35 /* PGBeaconManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PGBeaconManager.swift; sourceTree = "<group>"; };
-		17DFBA5453958E6A8525CA48D7B8F918 /* Pods_EmptyRoomBeacon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyRoomBeacon_Tests.framework; path = "Pods-EmptyRoomBeacon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		329230E2B5E72BC46FE995FCE5B5B5C9 /* livingRoom1.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = livingRoom1.jpg; sourceTree = "<group>"; };
+		17DFBA5453958E6A8525CA48D7B8F918 /* Pods_EmptyRoomBeacon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyRoomBeacon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		329230E2B5E72BC46FE995FCE5B5B5C9 /* livingRoom1.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = livingRoom1.jpg; sourceTree = "<group>"; };
 		332A21F16FA33035BA1A635057CA24B9 /* Pods-EmptyRoomBeacon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyRoomBeacon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		344002FB5516283CF0ABA2CF8D40F346 /* ConsumerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConsumerViewController.swift; sourceTree = "<group>"; };
+		41ACDC341EB8DB2A00C6A8F8 /* ImageBeaconContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBeaconContentViewController.swift; sourceTree = "<group>"; };
+		41ACDC361EB8DB6A00C6A8F8 /* UrlBeaconContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlBeaconContentViewController.swift; sourceTree = "<group>"; };
 		42375626E14ED9C95818B7B1AF9C41C5 /* AgentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgentViewController.swift; sourceTree = "<group>"; };
 		46655C78170F70CC3C08B011CBA84711 /* EmptyRoomBeacon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyRoomBeacon.xcconfig; sourceTree = "<group>"; };
 		4AC26EFBD41656D6750AFA5F79D54E6D /* Pods-EmptyRoomBeacon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyRoomBeacon_Tests-umbrella.h"; sourceTree = "<group>"; };
 		55F6C57A6A735874006C244D98B41180 /* Pods-EmptyRoomBeacon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyRoomBeacon_Tests-resources.sh"; sourceTree = "<group>"; };
-		5636AF30F305AD098F14D300525B9646 /* EmptyRoomBeacon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EmptyRoomBeacon.bundle; path = EmptyRoomBeacon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5636AF30F305AD098F14D300525B9646 /* EmptyRoomBeacon.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyRoomBeacon.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D481306AEE079F3F62031D53284505 /* Pods-EmptyRoomBeacon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyRoomBeacon_Example-dummy.m"; sourceTree = "<group>"; };
 		5B4D40F32F96825A814BE4B1C269E124 /* EmptyRoomBeacon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyRoomBeacon-dummy.m"; sourceTree = "<group>"; };
 		5B7356B378775507AFAA9BB1E578428A /* Pods-EmptyRoomBeacon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyRoomBeacon_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69ECF3986B760F837C7437B96E980427 /* livingRoom3.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = livingRoom3.jpg; sourceTree = "<group>"; };
+		69ECF3986B760F837C7437B96E980427 /* livingRoom3.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = livingRoom3.jpg; sourceTree = "<group>"; };
 		6FDDA61F3CA63F73EB147D6512B205A7 /* Pods-EmptyRoomBeacon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyRoomBeacon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7460D3D1188F9E930FB86099E7659EBE /* helixBridge.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = helixBridge.jpg; sourceTree = "<group>"; };
-		784E4BA44650EEFB769DBD3610BA8E13 /* kitchen1.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = kitchen1.jpg; sourceTree = "<group>"; };
+		7460D3D1188F9E930FB86099E7659EBE /* helixBridge.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = helixBridge.jpg; sourceTree = "<group>"; };
+		784E4BA44650EEFB769DBD3610BA8E13 /* kitchen1.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = kitchen1.jpg; sourceTree = "<group>"; };
 		8576365E1A49F07DC671B9CD4B1E6AC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88698D4DD7FD189149FFA90EC7EAFB76 /* Pods-EmptyRoomBeacon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyRoomBeacon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BDEA370078EC88FDEC58FCE07FC5F29 /* Pods-EmptyRoomBeacon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyRoomBeacon_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8E6547C426BB465C24C6F6FCA9DABCF8 /* UUIDs.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = UUIDs.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		949ED4B96224D106045DF1344E7D813B /* BeaconContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeaconContentViewController.swift; sourceTree = "<group>"; };
 		95929AF4A96E41BA839358E0B431F289 /* EmptyRoomBeacon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyRoomBeacon-umbrella.h"; sourceTree = "<group>"; };
 		9A938B540E16F7B256BBEA2046862684 /* EmptyRoomBeacon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyRoomBeacon-prefix.pch"; sourceTree = "<group>"; };
-		A5A5B7AD23042EC998F71E334E13937D /* EmptyRoomBeacon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EmptyRoomBeacon.modulemap; sourceTree = "<group>"; };
+		A5A5B7AD23042EC998F71E334E13937D /* EmptyRoomBeacon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EmptyRoomBeacon.modulemap; sourceTree = "<group>"; };
 		A6ECC7EE7E0219A5EC077B1DEE8572E3 /* Pods-EmptyRoomBeacon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyRoomBeacon_Tests-dummy.m"; sourceTree = "<group>"; };
 		AAFD3765E56409B8E04845E1274AFA69 /* Pods-EmptyRoomBeacon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyRoomBeacon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB27B002F8B6F8F6A25102F03F507F62 /* livingRoom2.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = livingRoom2.jpg; sourceTree = "<group>"; };
+		AB27B002F8B6F8F6A25102F03F507F62 /* livingRoom2.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = livingRoom2.jpg; sourceTree = "<group>"; };
 		B291370B427D91A7A99A1223272F0DEA /* Pods-EmptyRoomBeacon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyRoomBeacon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4F5DA02B45E8EA839855FC883EC9570 /* delete-512.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete-512.png"; sourceTree = "<group>"; };
 		B538235D9BA6B23F53AE595206B94FE3 /* Pods-EmptyRoomBeacon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyRoomBeacon_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B622186F565FB66CC87C96BFD81DD068 /* delete-512@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "delete-512@3x.png"; sourceTree = "<group>"; };
 		B855CBAB21BB53473BE0CD3DB98F77D7 /* iBeacon.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = iBeacon.plist; sourceTree = "<group>"; };
-		C1C8C94087AFC7BC25385F6F609DC798 /* Pods_EmptyRoomBeacon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyRoomBeacon_Example.framework; path = "Pods-EmptyRoomBeacon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C8C94087AFC7BC25385F6F609DC798 /* Pods_EmptyRoomBeacon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyRoomBeacon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73C6DFBD871DCE81CFCC12C14BFD30B /* Pods-EmptyRoomBeacon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyRoomBeacon_Example-umbrella.h"; sourceTree = "<group>"; };
 		C83AAD90E56D99B9E8E970C57DA8CB57 /* ResourceBundle-EmptyRoomBeacon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EmptyRoomBeacon-Info.plist"; sourceTree = "<group>"; };
-		D1C82F2E9526DA27B1CEBDD12AC76624 /* Pods-EmptyRoomBeacon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EmptyRoomBeacon_Tests.modulemap"; sourceTree = "<group>"; };
-		DBDA336A50358DEC0CAB47A8FA3F7563 /* Pods-EmptyRoomBeacon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EmptyRoomBeacon_Example.modulemap"; sourceTree = "<group>"; };
+		D1C82F2E9526DA27B1CEBDD12AC76624 /* Pods-EmptyRoomBeacon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EmptyRoomBeacon_Tests.modulemap"; sourceTree = "<group>"; };
+		DBDA336A50358DEC0CAB47A8FA3F7563 /* Pods-EmptyRoomBeacon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EmptyRoomBeacon_Example.modulemap"; sourceTree = "<group>"; };
 		E63087EE9F85836E0B919E3AB9A8643E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEBF42F74983EC22FD67F8EC0D18D618 /* Pods-EmptyRoomBeacon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyRoomBeacon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F00B36A554AC6186BAE3FE7F6396BF64 /* Pods-EmptyRoomBeacon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyRoomBeacon_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,8 +172,9 @@
 				949ED4B96224D106045DF1344E7D813B /* BeaconContentViewController.swift */,
 				344002FB5516283CF0ABA2CF8D40F346 /* ConsumerViewController.swift */,
 				0D223347DBF9DC80E6962B95F38F2B35 /* PGBeaconManager.swift */,
+				41ACDC341EB8DB2A00C6A8F8 /* ImageBeaconContentViewController.swift */,
+				41ACDC361EB8DB6A00C6A8F8 /* UrlBeaconContentViewController.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -277,7 +282,6 @@
 			children = (
 				EBF18F6F81BD80FF08A87DB390D6BD89 /* Assets */,
 			);
-			name = EmptyRoomBeacon;
 			path = EmptyRoomBeacon;
 			sourceTree = "<group>";
 		};
@@ -295,7 +299,6 @@
 				69ECF3986B760F837C7437B96E980427 /* livingRoom3.jpg */,
 				8E6547C426BB465C24C6F6FCA9DABCF8 /* UUIDs.plist */,
 			);
-			name = Assets;
 			path = Assets;
 			sourceTree = "<group>";
 		};
@@ -304,7 +307,6 @@
 			children = (
 				5D38D884D008DBC321E71E20D90D2ED6 /* Classes */,
 			);
-			name = EmptyRoomBeacon;
 			path = EmptyRoomBeacon;
 			sourceTree = "<group>";
 		};
@@ -494,8 +496,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ACDC371EB8DB6A00C6A8F8 /* UrlBeaconContentViewController.swift in Sources */,
 				8D865CE272A4D6BE967FC330231D9467 /* AgentViewController.swift in Sources */,
 				5D448AAD07E4A27FAD500C9DB6EF34F9 /* BeaconContentViewController.swift in Sources */,
+				41ACDC351EB8DB2A00C6A8F8 /* ImageBeaconContentViewController.swift in Sources */,
 				B898848D0E00662D2EAEF64381C72D86 /* ConsumerViewController.swift in Sources */,
 				9B72583CF245165A3A9A2739BD9EE26A /* EmptyRoomBeacon-dummy.m in Sources */,
 				1CD09163921A5625288E3C9B1D39C69A /* PGBeaconManager.swift in Sources */,

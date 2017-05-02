@@ -69,7 +69,16 @@ extension ConsumerViewController: PGBeaconManagerDelegate {
             return
         }
         self.currentImageName = imageName
-        let contentViewController = BeaconContentViewController(imageFile: imageName)
+        let contentViewController = ImageBeaconContentViewController(imageFile: imageName)
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        self.present(contentViewController, animated: true, completion: nil)
+    }
+    
+    func didReceiveUrl(url: String) {
+        if let _ = self.presentedViewController {
+            return
+        }
+        let contentViewController = UrlBeaconContentViewController(url: url)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         self.present(contentViewController, animated: true, completion: nil)
     }
