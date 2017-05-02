@@ -1,0 +1,27 @@
+{
+  "name": "EmptyRoomBeacon",
+  "version": "0.1.0",
+  "summary": "A short description of EmptyRoomBeacon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maybeiamme/EmptyRoomBeacon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maybeiamme": "jin@propertyguru.com.sg"
+  },
+  "source": {
+    "git": "https://github.com/maybeiamme/EmptyRoomBeacon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EmptyRoomBeacon/Classes/**/*",
+  "resource_bundles": {
+    "EmptyRoomBeacon": [
+      "EmptyRoomBeacon/Assets/*"
+    ]
+  }
+}

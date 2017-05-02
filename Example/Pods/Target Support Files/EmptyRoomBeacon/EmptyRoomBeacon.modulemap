@@ -1,0 +1,6 @@
+framework module EmptyRoomBeacon {
+  umbrella header "EmptyRoomBeacon-umbrella.h"
+
+  export *
+  module * { export * }
+}

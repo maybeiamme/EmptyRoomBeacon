@@ -1,0 +1,6 @@
+framework module Pods_EmptyRoomBeacon_Tests {
+  umbrella header "Pods-EmptyRoomBeacon_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

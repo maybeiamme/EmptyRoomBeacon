@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EmptyRoomBeacon
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func consumerAction(_ sender: Any) {
+        let vc = ConsumerViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @IBAction func agentAction(_ sender: Any) {
+        let vc = AgentViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

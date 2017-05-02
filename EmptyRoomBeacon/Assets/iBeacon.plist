@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Beacons</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Poon ipad</string>
+			<key>enabled</key>
+			<true/>
+			<key>UUID</key>
+			<string>8492E75F-4FD6-469D-B132-043FE94921D8</string>
+			<key>major</key>
+			<integer>10374</integer>
+			<key>minor</key>
+			<integer>15433</integer>
+			<key>imageFile</key>
+			<string>livingRoom3.jpg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Poon Mac</string>
+			<key>enabled</key>
+			<true/>
+			<key>UUID</key>
+			<string>B0702880-A295-A8AB-F734-031A98A512DE</string>
+			<key>major</key>
+			<integer>5</integer>
+			<key>minor</key>
+			<integer>1000</integer>
+			<key>imageFile</key>
+			<string>kitchen1.jpg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Light Green</string>
+			<key>enabled</key>
+			<false/>
+			<key>UUID</key>
+			<string>B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+			<key>major</key>
+			<real>11048</real>
+			<key>minor</key>
+			<integer>60563</integer>
+			<key>imageFile</key>
+			<string>livingRoom2.jpg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Purple</string>
+			<key>enabled</key>
+			<false/>
+			<key>UUID</key>
+			<string>B9407F30-F5F8-466E-AFF9-25556B57FE6D</string>
+			<key>major</key>
+			<real>57966</real>
+			<key>minor</key>
+			<integer>30010</integer>
+			<key>imageFile</key>
+			<string>livingRoom1.jpg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>iPhone 5 White</string>
+			<key>enabled</key>
+			<true/>
+			<key>UUID</key>
+			<string>8492E75F-4FD6-469D-B132-043FE94921D8</string>
+			<key>major</key>
+			<integer>4921</integer>
+			<key>minor</key>
+			<integer>3036</integer>
+			<key>imageFile</key>
+			<string>helixBridge.jpg</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>iPhone 6+ Gold</string>
+			<key>enabled</key>
+			<true/>
+			<key>UUID</key>
+			<string>8492E75F-4FD6-469D-B132-043FE94921D8</string>
+			<key>major</key>
+			<real>11704</real>
+			<key>minor</key>
+			<integer>14927</integer>
+			<key>imageFile</key>
+			<string>helixBridge.jpg</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+PODS:
+  - EmptyRoomBeacon (0.1.0)
+
+DEPENDENCIES:
+  - EmptyRoomBeacon (from `../`)
+
+EXTERNAL SOURCES:
+  EmptyRoomBeacon:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EmptyRoomBeacon: f0a88a5d652f3a889eb6e81cf68d0849cd09e32d
+
+PODFILE CHECKSUM: fd69f5b32e5dd0b0a6a92850667d986814ca6a6e
+
+COCOAPODS: 1.2.1
