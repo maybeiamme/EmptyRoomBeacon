@@ -11,7 +11,7 @@ import AudioToolbox
 
 public class ConsumerViewController: UIViewController {
 
-    var currentImageName = ""
+    var currentResource = ""
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,22 +62,26 @@ public class ConsumerViewController: UIViewController {
 extension ConsumerViewController: PGBeaconManagerDelegate {
     
     func didReceiveBeaconImage(imageName: String){
-        if self.currentImageName == imageName {
+        if self.currentResource == imageName {
             return
         }
         if let _ = self.presentedViewController {
             return
         }
-        self.currentImageName = imageName
+        self.currentResource = imageName
         let contentViewController = ImageBeaconContentViewController(imageFile: imageName)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         self.present(contentViewController, animated: true, completion: nil)
     }
     
     func didReceiveUrl(url: String) {
+        if self.currentResource == url {
+            return
+        }
         if let _ = self.presentedViewController {
             return
         }
+        self.currentResource = url
         let contentViewController = UrlBeaconContentViewController(url: url)
         AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         self.present(contentViewController, animated: true, completion: nil)
